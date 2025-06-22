@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Hanalei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Hanalei&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Barriecito&family=Hanalei&family=UnifrakturMaguntia&display=swap');
 
 * {
   padding: 0;
@@ -83,9 +87,21 @@ body {
 /* DID word */
 
 .didDLetter {
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(56, 88, 230);
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-family: 'Arizonia', sans-serif;
 }
 
 .didILetter {
+  font-size: 50px;
+  font-weight: 400;
+  color: hsl(147, 66%, 50%);
+  text-decoration: overline;
+  text-transform: lowercase;
+  font-family: 'Hanalei', sans-serif;
 }
 
 .didDTwoLetter {
